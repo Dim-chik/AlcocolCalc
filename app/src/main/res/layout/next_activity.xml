@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ваш вес, кг"/>
+
+    <Switch
+        android:id="@+id/switchGender"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:showText="true"
+        android:text=" Пол"
+        android:textOff="М"
+        android:textOn="Ж"
+        android:textSize="8pt"/>
+
+    <EditText
+        android:id="@+id/editTextStrength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Крепость выпитого напитка, %"/>
+
+    <EditText
+        android:id="@+id/editTextVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Объем выпитого напитка, мл"/>
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Прошедшее время, ч"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Расчитать"/>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
